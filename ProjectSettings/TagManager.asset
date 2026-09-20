@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -13,12 +13,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ball
+  - Block
+  - Wall
+  - Sensor
+  - FX
+  - UIWorld
   - 
   - 
   - 
@@ -41,3 +41,32 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1
+    locked: 0
+  - name: GridSlots
+    uniqueID: 2
+    locked: 0
+  - name: ReturnLine
+    uniqueID: 3
+    locked: 0
+  - name: Blocks
+    uniqueID: 4
+    locked: 0
+  - name: BallTrail
+    uniqueID: 5
+    locked: 0
+  - name: Balls
+    uniqueID: 6
+    locked: 0
+  - name: FX
+    uniqueID: 7
+    locked: 0
+  - name: AimGuide
+    uniqueID: 8
+    locked: 0
+  - name: Foreground
+    uniqueID: 9
+    locked: 0
+  m_RenderingLayers:
+  - Default

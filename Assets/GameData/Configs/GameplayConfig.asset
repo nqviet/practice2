@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843b95cab6b06a74a99a3f38f9134478, type: 3}
+  m_Name: GameplayConfig
+  m_EditorClassIdentifier: 
+  m_BallRadius: 0.28
+  m_BallSpeed: 14
+  m_FastForwardMultiplier: 2
+  m_AimClampFromUpDeg: 75
+  m_MaxTrailRuns: 5
+  m_TrailRunFadeSec: 0.25
+  m_TrailDissipateSec: 1
+  m_ChainStaggerSec: 0.05
+  m_DetonationFreezeSec: 0.04
+  m_ReturnMargin: 0.35
+  m_ShotTimeoutSec: 12
+  m_CannonRailHalfWidth: 4.4
+  m_CannonBottomPad: 1.8
+  m_ShakeScale: 1
+  m_Warmups:
+  - Id: 2
+    Count: 1
+  - Id: 3
+    Count: 5
+  - Id: 1
+    Count: 64

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9327d77b59844f488292b2cbb5fcae0, type: 3}
+  m_Name: BlockPalette
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - m_Character: 78
+    m_Definition: {fileID: 11400000, guid: 1a71ccdf8e361f84580058f0d9e8820d, type: 2}
+    m_IsReserved: 0
+    m_ReservedMessage: 
+  - m_Character: 83
+    m_Definition: {fileID: 11400000, guid: 4967825be6bc1844c9dd91cb49b53bad, type: 2}
+    m_IsReserved: 0
+    m_ReservedMessage: 
+  - m_Character: 82
+    m_Definition: {fileID: 11400000, guid: 8e02410f213a5bc43a4f022c563bd3e5, type: 2}
+    m_IsReserved: 0
+    m_ReservedMessage: 
+  - m_Character: 66
+    m_Definition: {fileID: 11400000, guid: 7ffcf66c471ff7243973d06bfa6fe0b6, type: 2}
+    m_IsReserved: 0
+    m_ReservedMessage: 
+  - m_Character: 89
+    m_Definition: {fileID: 11400000, guid: d489c912e40e599418496b201a230d37, type: 2}
+    m_IsReserved: 0
+    m_ReservedMessage: 
+  - m_Character: 77
+    m_Definition: {fileID: 0}
+    m_IsReserved: 1
+    m_ReservedMessage: Character 'M' (Armored Brick) is reserved, not implemented.
+  - m_Character: 88
+    m_Definition: {fileID: 0}
+    m_IsReserved: 1
+    m_ReservedMessage: Character 'X' (Mystery Block) is reserved, not implemented.

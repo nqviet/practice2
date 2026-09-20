@@ -1,0 +1,17 @@
+{
+    "name": "Game.Board",
+    "rootNamespace": "Game.Board",
+    "references": [
+        "Game.Core",
+        "Game.Utils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
