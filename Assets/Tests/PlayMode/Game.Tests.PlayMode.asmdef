@@ -6,7 +6,8 @@
         "Game.Board",
         "Game.Core",
         "Game.Utils",
-        "UnityEngine.TestRunner"
+        "UnityEngine.TestRunner",
+        "Unity.InputSystem"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

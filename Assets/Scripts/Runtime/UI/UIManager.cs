@@ -65,12 +65,39 @@ namespace Game.Runtime.UI
 
         private void Update()
         {
-            // Android back button maps to Escape
-            if (m_Current != null && m_Current.CloseOnBack &&
-                Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+            if (IsBackButtonPressed())
             {
-                Hide();
+                if (m_Current != null && m_Current.CloseOnBack)
+                {
+                    Hide();
+                }
+                else if (m_Current == null && GameManager.Instance != null && !GameManager.Instance.IsPaused)
+                {
+                    Show(PopupId.Settings);
+                }
             }
+        }
+
+        private bool IsBackButtonPressed()
+        {
+            if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+            {
+                return true;
+            }
+
+            if (Gamepad.current != null && Gamepad.current.bButton.wasPressedThisFrame)
+            {
+                return true;
+            }
+
+#if ENABLE_LEGACY_INPUT_MANAGER
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                return true;
+            }
+#endif
+
+            return false;
         }
 
         public UIPopup Get(PopupId id)
